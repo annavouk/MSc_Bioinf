@@ -48,7 +48,7 @@ if(startCodonFound == 1)
 
 if(startCodonFound == 1 && stopCodonFound == 1)
 { printf("A valid Open Reading Frame is present.\n"); }
-else if(startCodonFound ==2)
+else if(startCodonFound == 2)
 {printf("Invalid character is found. This is not a DNA sequence.\n");}
 else { printf("No valid Open Reading Frame is present.\n"); }
 }
